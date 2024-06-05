@@ -39,6 +39,8 @@ const updateUI = (weather) => {
   } else if (weather.weather[0].main == "Clouds") {
     videoBg.src = "./icons/clouds.mp4";
   }
+  changeLocation.city.style.borderRadius='25px 25px 0 0'
+
 };
 
 // get weather
